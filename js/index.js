@@ -1,5 +1,5 @@
 function carregarPerfil(tipo) {
-            fetch(`http://localhost:8080/api/${tipo}`)
+             fetch(`https://api-sistema-universitario.onrender.com/api/${tipo}`)
                 .then(resposta => resposta.json())
                 .then(dados => {
                     document.getElementById('tela-nome').textContent = dados.nome;
