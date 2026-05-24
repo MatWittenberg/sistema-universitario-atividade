@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Acadêmico Universitário</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+    <div class="controles">
+        <button onclick="carregarPerfil('alunos')">Ver Aluno</button>
+        <button onclick="carregarPerfil('professores')">Ver Professor</button>
+    </div>
+
+    <div class="card">
+        <h2 id="card-titulo">👨‍🎓 Perfil</h2>
+
+        <div class="info-linha">
+            <span class="destaque">Nome:</span> 
+            <span id="tela-nome">-</span>
+        </div>
+
+        <div class="info-linha">
+            <span class="destaque">CPF:</span> 
+            <span id="tela-cpf">-</span>
+        </div>
+
+        <div class="info-linha">
+            <span class="destaque">Matrícula:</span> 
+            <span id="tela-matricula">-</span>
+        </div>
+
+        <div id="tela-extra-geral"></div>
+
+        <div class="dinamico-box" id="caixa-dinamica">
+            <h3 id="dinamico-titulo">-</h3>
+            <div id="dinamico-conteudo"></div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
