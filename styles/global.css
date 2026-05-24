@@ -1,19 +1,15 @@
 :root {
   --fonte-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
   --cor-fundo: #e9ecef;
   --cor-cartao: #ffffff;
   --cor-caixa-interna: #f8f9fa;
-
   --texto-principal: #2c3e50;
   --texto-secundario: #34495e;
   --texto-comum: #555555;
   --texto-destaque: #222222;
-
   --cor-botao: #34495e;
   --cor-botao-hover: #2c3e50;
   --cor-detalhe: #3498db;
-
   --borda-raio-sm: 6px;
   --borda-raio-md: 8px;
   --borda-raio-lg: 12px;
